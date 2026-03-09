@@ -1,0 +1,16 @@
+name: aegis-cre-tenderly-myeth-mainnet
+entrypoint: agent/src/cre/index.ts
+workflow: aegis-tenderly-myeth-mainnet
+target: tenderly-myeth-mainnet
+network: ethereum-mainnet
+runtime:
+  type: quickjs-wasm
+  capabilities:
+    - http-trigger
+    - evm-read
+    - http-fetch
+    - evm-write
+contracts:
+  registry: ${REGISTRY_ADDRESS}
+  vault: ${VAULT_ADDRESS}
+  logger: ${LOGGER_ADDRESS}
