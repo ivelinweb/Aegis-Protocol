@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_ETH_MAINNET_RPC": "https://virtual.mainnet.eu.rpc.tenderly.co/1a852ec7-470b-4719-83e5-7e4d741e729d",
+    "NEXT_PUBLIC_TENDERLY_PUBLIC_RPC": "https://virtual.mainnet.eu.rpc.tenderly.co/1a852ec7-470b-4719-83e5-7e4d741e729d",
+    "NEXT_PUBLIC_CHAIN_ID": "9991",
+    "NEXT_PUBLIC_CHAIN_NAME": "Tenderly myEth Mainnet",
+    "NEXT_PUBLIC_CHAIN_EXPLORER_NAME": "Tenderly Explorer",
+    "NEXT_PUBLIC_CHAIN_EXPLORER_URL": "https://dashboard.tenderly.co/explorer/vnet/1a852ec7-470b-4719-83e5-7e4d741e729d/transactions",
+    "NEXT_PUBLIC_TENDERLY_EXPLORER_NAME": "Tenderly Explorer",
+    "NEXT_PUBLIC_TENDERLY_EXPLORER_URL": "https://dashboard.tenderly.co/explorer/vnet/1a852ec7-470b-4719-83e5-7e4d741e729d/transactions",
+    "NEXT_PUBLIC_REGISTRY_ADDRESS": "0x4Cd7fDFf83DC1540696BdaF38840a93134336dF8",
+    "NEXT_PUBLIC_VAULT_ADDRESS": "0xB433a6F3c690D17E78aa3dD87eC01cdc304278a9",
+    "NEXT_PUBLIC_LOGGER_ADDRESS": "0x95ee06ec2D944B891E82CEd2F1404FBB8A36dA44",
+    "NEXT_PUBLIC_REFERENCE_ADDRESS": "0x3a18f9f0E07269D2a9161A0E83745b4e8BbAdEE8"
+  }
+}
