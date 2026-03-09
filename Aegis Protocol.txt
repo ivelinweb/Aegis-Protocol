@@ -1,0 +1,39 @@
+Aegis Protocol
+
+AI-Powered Autonomous DeFi Guardian for Ethereum Mainnet.
+
+Aegis monitors DeFi positions 24/7, scores market risk, uses LLM reasoning to classify threats, verifies pricing against Uniswap V2 liquidity, and records decision evidence on-chain.
+
+Six-phase loop
+OBSERVE -> ANALYZE -> AI REASON -> DEX VERIFY -> DECIDE -> EXECUTE
+
+Key features
+- Autonomous monitoring and protection logic
+- Groq / OpenAI reasoning with heuristic fallback
+- Uniswap V2 reserve verification
+- Non-custodial vault controls with emergency withdrawal
+- ERC-721 agent identity and reputation
+- On-chain decision logging through DecisionLogger
+
+Contracts
+- AegisRegistry: agent identity, tiers, operator control, reputation
+- AegisVault: ETH / ERC-20 deposits, risk profiles, protection execution
+- DecisionLogger: risk snapshots, decision history, reasoning hashes
+
+Deployment profile
+- Network: Ethereum Mainnet
+- Chain ID: 1
+- Explorer: Etherscan
+- RPC: ETH_MAINNET_RPC or https://ethereum-rpc.publicnode.com
+- Verification: Sourcify + Etherscan workflow
+
+Tech stack
+- Solidity 0.8.24 + Hardhat
+- TypeScript + Node.js agent runtime
+- Groq / OpenAI LLM integration
+- CoinGecko + DeFiLlama market data
+- Uniswap V2 on-chain reserve checks
+- Next.js 14 frontend with ethers v6
+
+Project goal
+Give DeFi users a guardian that does more than alert: it watches, reasons, verifies, and acts within user-defined risk limits.
