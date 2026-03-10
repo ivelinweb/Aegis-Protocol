@@ -191,7 +191,7 @@ sequenceDiagram
 ### Deployed contracts on the active VNet
 
 | Contract | Address |
-|---|---|---|
+|---|---|
 | `AegisRegistry` | `0x4Cd7fDFf83DC1540696BdaF38840a93134336dF8` | 
 | `AegisVault` | `0xB433a6F3c690D17E78aa3dD87eC01cdc304278a9` | 
 | `DecisionLogger` | `0x95ee06ec2D944B891E82CEd2F1404FBB8A36dA44` | 
