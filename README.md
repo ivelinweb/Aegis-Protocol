@@ -4,6 +4,11 @@
 
 Aegis Protocol is an autonomous protection stack for Ethereum that watches DeFi positions, scores market risk, reasons over threats with LLMs, cross-checks prices against Uniswap liquidity, and records decision evidence on-chain. Aegis Protocol includes CRE + Tenderly surfaces in `agent/src/cre/*`, and a **frontend browser-wallet execution path** that performs live Tenderly/public RPC reads and submits a real `DecisionLogger.logDecision(...)` transaction on the active **Tenderly myEth Mainnet** virtual network.
 
+
+## 🎥 Live Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/83gopHTH3AU/maxresdefault.jpg)](https://www.youtube.com/watch?v=83gopHTH3AU)
+
 ## Project Features
 
 Aegis Protocol has two main operational modes:
